@@ -1,11 +1,13 @@
 import './App.css'
+import Banner from './components/Banner/Banner'
+import Navbar from './components/Navbar/Navbar'
 
 function App() {
 
   return (
     <>
-      <h3 className='text-5xl'>Assignment 6 is on going</h3>
-      <button className='btn btn-success'>Go</button>
+      <Navbar />
+      <Banner />
     </>
   )
 }
