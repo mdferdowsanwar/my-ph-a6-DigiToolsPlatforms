@@ -1,5 +1,6 @@
 import React from 'react';
 import { toast } from 'react-toastify';
+import cartImage from '../../assets/cart.png'
 
 const Cart = ({ carts, setCarts }) => {
     const totalPrice = carts.reduce((sum, item) => sum + item.price, 0);
@@ -11,8 +12,12 @@ const Cart = ({ carts, setCarts }) => {
     }
 
     const handlePayment = () => {
-        setCarts([]);
+        if(carts.length > 0){
+            setCarts([]);
         toast.success("Payment has been successful.");
+        } else {
+            toast.error("Please added item to the cart first.");
+        }        
 
     }
 
@@ -21,7 +26,11 @@ const Cart = ({ carts, setCarts }) => {
             <h1 className='text-2xl font-bold'>Your Cart:</h1>
             {
                 carts.length === 0
-                    ? <p className='text-center text-xl py-5'>Your Cart is empty.</p>
+                    ? 
+                    <div className='flex items-center flex-col justify-center gap-3 text-zinc-600 my-5'>
+                        <img className='w-16 h-auto opacity-50' src={cartImage} alt="" />
+                        <p className='text-center text-lg'>Your Cart is empty.</p>
+                    </div>
                     : <>
                         {
                             carts.map(item => {

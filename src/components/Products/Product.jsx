@@ -20,7 +20,7 @@ const Product = ({ product, carts, setCarts }) => {
         <div>
             <div className="card bg-base-100 shadow-lg p-5">
                 <div className='flex justify-end'>
-                    <span className={`badge ${product.tag === 'popular' ? 'badge-success' : product.tag === 'new' ? 'badge-info' : 'badge-secondary'} rounded-full text-white`}>{product.tag}</span>
+                    <span className={`badge ${product.tagType === 'popular' ? 'badge-success' : product.tag === 'new' ? 'badge-info' : 'badge-secondary'} rounded-full text-white`}>{product.tagType}</span>
                 </div>
                 <figure className='border rounded-full h-16 w-16 mb-3'>
                     <img src={product.icon} alt="" className='h-8 w-8' />

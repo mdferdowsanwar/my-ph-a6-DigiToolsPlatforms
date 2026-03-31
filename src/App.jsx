@@ -38,7 +38,7 @@ function App() {
         <p className='text-zinc-600'>Choose from our curated collection of premium digital products designed to boost your productivity and creativity.</p>
       </div>
 
-      <div className="tabs tabs-box justify-center bg-transparent shadow-none mb-5">
+      <div className="tabs tabs-box justify-center bg-transparent shadow-none mb-5 gap-3 sm:gap-0">
         <input onClick={() => handleToggleBtn("product")} type="radio" className={`tab rounded-full w-40 mr-5 ${activeTab === 'product' && 'bg-[#9c88ff]'}`} aria-label="Products" defaultChecked />
         <input onClick={() => handleToggleBtn("cart")} type="radio" className={`tab rounded-full w-40 mr-5 ${activeTab === 'cart' && 'bg-[#9c88ff]'}`} aria-label={`Cart (${carts.length})`} />
       </div>
