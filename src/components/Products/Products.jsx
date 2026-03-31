@@ -3,7 +3,7 @@ import Product from './Product';
 
 const Products = ({ dataPromise, carts, setCarts }) => {
     const productData = use(dataPromise);
-    console.log(productData);
+    //console.log(productData);
     return (
         <div>
             <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-5 w-10/12 m-auto my-10'>
