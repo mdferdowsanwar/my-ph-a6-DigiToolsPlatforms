@@ -17,18 +17,18 @@ const getData = async () => {
 }
 function App() {
   const dataPromise = getData();
-  console.log(dataPromise);
+  //console.log(dataPromise);
   const [activeTab, setActiveTab] = useState("product");
-  console.log(activeTab);
+  //console.log(activeTab);
   const [carts, setCarts] = useState([]);
-  console.log(carts);
+  //console.log(carts);
 
   const handleToggleBtn = (tab) => { setActiveTab(tab); }
 
 
   return (
     <>
-      <Navbar />
+      <Navbar carts={carts} />
 
       <Banner />
 
@@ -40,7 +40,7 @@ function App() {
 
       <div className="tabs tabs-box justify-center bg-transparent shadow-none mb-5">
         <input onClick={() => handleToggleBtn("product")} type="radio" className={`tab rounded-full w-40 mr-5 ${activeTab === 'product' && 'bg-[#9c88ff]'}`} aria-label="Products" defaultChecked />
-        <input onClick={() => handleToggleBtn("cart")} type="radio" className={`tab rounded-full w-40 mr-5 ${activeTab === 'cart' && 'bg-[#9c88ff]'}`} aria-label="Cart" />
+        <input onClick={() => handleToggleBtn("cart")} type="radio" className={`tab rounded-full w-40 mr-5 ${activeTab === 'cart' && 'bg-[#9c88ff]'}`} aria-label={`Cart (${carts.length})`} />
       </div>
 
       {
