@@ -1,0 +1,101 @@
+[
+  {
+    "id": 1,
+    "name": "Resume Builder Pro",
+    "description": "Create professional resumes بسهولة\nATS-friendly templates included",
+    "price": 0,
+    "period": "one-time",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["100+ templates", "ATS optimization", "Export to PDF"],
+    "icon": "https://play-lh.googleusercontent.com/1uDVlDRb_I7dYD-GPt9jIVykZOCGvYhXPhY082kH4WNVWB4jchVu9uwd_l1EtwD9U2pqZwYEGF7BndnEyK2Sgw"
+  },
+  {
+    "id": 2,
+    "name": "AI Content Writer",
+    "description": "Generate blog & social content instantly\nPowered by advanced AI",
+    "price": 19,
+    "period": "monthly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": ["SEO optimization", "Multi-language", "Fast generation"],
+    "icon": "https://play-lh.googleusercontent.com/A9QsKXxVpDJ7olSd2_VapKaetwhPPRMc4tnSIMc5Bu70nBj4nqwQJ5EHRgUDtTx97G8"
+  },
+  {
+    "id": 3,
+    "name": "Portfolio Website Kit",
+    "description": "Build stunning portfolios easily\nNo coding required",
+    "price": 29,
+    "period": "one-time",
+    "tag": "new",
+    "tagType": "new",
+    "features": ["Drag & drop builder", "Responsive design", "Custom domains"],
+    "icon": "https://cdn.iconscout.com/icon/free/png-256/free-job-portfolio-icon-svg-download-png-1650459.png"
+  },
+  {
+    "id": 4,
+    "name": "Email Marketing Suite",
+    "description": "Automate your email campaigns\nGrow your audience fast",
+    "price": 15,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["Email templates", "Automation flows", "Analytics dashboard"],
+    "icon": "https://cdn-icons-png.flaticon.com/512/2344/2344522.png"
+  },
+  {
+    "id": 5,
+    "name": "Graphic Design Pack",
+    "description": "High-quality design assets\nPerfect for creatives",
+    "price": 49,
+    "period": "one-time",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": ["Icons & illustrations", "Figma files", "Commercial license"],
+    "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqQ6drmQWFNve_ZcmyWG2WdjRNYib7fCmbfw&s"
+  },
+  {
+    "id": 6,
+    "name": "Social Media Scheduler",
+    "description": "Schedule posts across platforms\nSave time & stay consistent",
+    "price": 10,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "features": ["Multi-platform support", "Auto posting", "Analytics"],
+    "icon": "https://static.vecteezy.com/system/resources/previews/029/202/516/non_2x/3d-render-of-gradient-calendar-schedule-date-and-time-illustration-icons-for-web-social-media-ads-designs-png.png"
+  },
+  {
+    "id": 7,
+    "name": "Online Course Builder",
+    "description": "Create & sell courses بسهولة\nMonetize your knowledge",
+    "price": 99,
+    "period": "yearly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["Video hosting", "Student dashboard", "Payment integration"],
+    "icon": "https://cdn-icons-png.freepik.com/512/1430/1430960.png"
+  },
+  {
+    "id": 8,
+    "name": "Task Management App",
+    "description": "Organize tasks efficiently\nBoost productivity daily",
+    "price": 8,
+    "period": "monthly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": ["Kanban boards", "Team collaboration", "Reminders"],
+    "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfiS6f-IKR6LmhgDQ1Iz3ptoprCU9EbKqMmA&s"
+  },
+  {
+    "id": 9,
+    "name": "E-commerce Starter Kit",
+    "description": "Launch your online store fast\nEverything you need included",
+    "price": 79,
+    "period": "one-time",
+    "tag": "new",
+    "tagType": "new",
+    "features": ["Product pages", "Cart system", "Payment gateway"],
+    "icon": "https://cdn-icons-png.freepik.com/512/7835/7835563.png"
+  }
+]
